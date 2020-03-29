@@ -1,7 +1,7 @@
 FROM python:3.7-alpine
 LABEL  maintainer="jojin.kb@gmail.com"
 
-ENV PYTHONUNBEFFERED 1
+ENV PYTHONUNBUFFERED 1
 
 COPY ./requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
