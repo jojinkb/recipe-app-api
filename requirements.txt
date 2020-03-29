@@ -1,0 +1,3 @@
+#Restrict packages to a major version so that no breaking changes are encounterd, but we continue to get any security patches
+Django>=2.1.3,<2.2.0
+djangorestframework>=3.9.0,<3.10.0
